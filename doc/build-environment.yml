@@ -8,7 +8,6 @@ dependencies:
   - pip
   - myst-parser
   - docutils <0.18
-  - sphinx
   - sphinx-rtd-theme
   - sphinxcontrib-apidoc
   - nbsphinx
