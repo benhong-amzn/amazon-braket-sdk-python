@@ -16,7 +16,8 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.todo",
     "sphinx.ext.coverage",
-    "jupyterlite_sphinx"
+    "jupyterlite_sphinx",
+    'myst_parser'
 ]
 
 source_suffix = ".rst"
