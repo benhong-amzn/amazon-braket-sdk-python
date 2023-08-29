@@ -42,3 +42,13 @@ The Amazon Braket Python SDK APIs:
     
     _apidoc/modules
 
+*****************
+Python Scratchpad
+*****************
+
+.. replite::
+   :kernel: xeus-python
+   :toolbar: 0
+   :theme: JupyterLab Light
+   :width: 100%
+   :height: 600px
