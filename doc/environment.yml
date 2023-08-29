@@ -5,6 +5,6 @@ channels:
 dependencies:
   - numpy
   - matplotlib
+  - ..
   - pip:
     - pydantic==1.8.2
-    - ..
