@@ -42,6 +42,7 @@ setup(
         "sympy",
         "myst-parser",
         "docutils >=0.18.1,<0.19"
+
     ],
     extras_require={
         "test": [
