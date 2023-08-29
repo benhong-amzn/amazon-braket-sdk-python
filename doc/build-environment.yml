@@ -7,7 +7,7 @@ dependencies:
   - python==3.11
   - pip
   - myst-parser
-  - docutils >=0.16,<0.21
+  - docutils >=0.18.1,<0.21
   - sphinx==7.2.4
   - sphinx-rtd-theme
   - sphinxcontrib-apidoc
