@@ -8,6 +8,7 @@ dependencies:
   - pip
   - myst-parser
   - docutils <0.18
+  - sphinx==7.2.4
   - sphinx-rtd-theme
   - sphinxcontrib-apidoc
   - jupyterlab >=3.5.3,<3.6
