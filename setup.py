@@ -40,8 +40,8 @@ setup(
         "openpulse",
         "openqasm3",
         "sympy",
-        "myst-parser",
-        "docutils >=0.18.1,<0.19"
+        "docutils >=0.18.1,<0.19",
+        # "myst-parser",
 
     ],
     extras_require={
