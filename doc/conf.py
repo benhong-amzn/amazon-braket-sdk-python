@@ -16,6 +16,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.todo",
     "sphinx.ext.coverage",
+    # "nbsphinx",
     "jupyterlite_sphinx",
     'myst_parser'
 ]
@@ -28,6 +29,8 @@ autodoc_member_order = "bysource"
 default_role = "py:obj"
 
 html_theme = "sphinx_rtd_theme"
+html_logo = "_static/amz-braket.png"
+html_title = "Amazon Braket Python SDK"
 htmlhelp_basename = "{}doc".format(project)
 
 language = "en"
@@ -40,3 +43,6 @@ apidoc_excluded_paths = ["../test"]
 apidoc_separate_modules = True
 apidoc_module_first = True
 apidoc_extra_args = ["-f", "--implicit-namespaces", "-H", "API Reference"]
+
+# jupyterlite_bind_ipynb_suffix = False
+jupyterlite_contents = "./jupyter_contents"
