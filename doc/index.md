@@ -5,7 +5,7 @@ sd_hide_title: true
 # sphinx-design
 
 ::::::{div} landing-title
-:style: "padding: 0.1rem 0.6rem 0.6rem 0; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 100%); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 100%);"
+:style: "padding: 0.1rem 0.3rem 0.3rem 0; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 100%); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 100%);"
 
 ::::{grid}
 :reverse:
@@ -28,7 +28,7 @@ sd_hide_title: true
 
 Amazon Braket Python SDK
 
-```{button-ref} pages/setting_up
+```{button-ref} pages/setting_up.rst
 :ref-type: doc
 :outline:
 :color: white
