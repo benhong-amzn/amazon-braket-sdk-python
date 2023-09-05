@@ -72,21 +72,21 @@ pages/pathway_researcher
 :margin: 4 4 0 0
 :gutter: 1
 
-:::{grid-item-card} {octicon}`chevron-right` API Reference
+:::{grid-item-card} {octicon}`chevron-right` Newcomers
 :link: pages/pathway_newcomer
 :link-type: doc
 
 Recommended content for quantum newcomers.
 :::
 
-:::{grid-item-card} {octicon}`chevron-right` API Reference
+:::{grid-item-card} {octicon}`chevron-right` Researchers
 :link: pages/pathway_researcher
 :link-type: doc
 
 Recommended content for quantum researchers.
 :::
 
-:::{grid-item-card} {octicon}`chevron-right` API Reference
+:::{grid-item-card} {octicon}`chevron-right` Educators
 :link: pages/pathway_educator
 :link-type: doc
 
