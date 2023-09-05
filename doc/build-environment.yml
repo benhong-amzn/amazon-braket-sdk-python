@@ -9,6 +9,7 @@ dependencies:
   # - myst-parser
   - docutils >=0.18.1,<0.19
   - sphinx==7.2.4
+  - sphinx-book-theme
   - sphinx-rtd-theme
   - sphinxcontrib-apidoc
   - sphinx-design
