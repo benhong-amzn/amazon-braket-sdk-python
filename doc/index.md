@@ -5,7 +5,7 @@ sd_hide_title: true
 # sphinx-design
 
 ::::::{div} landing-title
-:style: "padding: 0.1rem 0.4rem 0.8rem 0.3rem; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem));"
+:style: "padding: 0.1rem 0.2rem 0.8rem 0.3rem; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem));"
 
 ::::{grid}
 :reverse:
@@ -60,24 +60,48 @@ pages/setting_up
 :caption: Components
 :hidden:
 
-pages/examples-getting-started
-pages/examples-adv-circuits-algorithms
+pages/examples_getting_started
+pages/examples_adv-circuits_algorithms 
 _apidoc/modules
+pages/pathway_newcomer
+pages/pathway_educator
+pages/pathway_researcher
 ```
 
 ::::{grid} 1 2 2 3
 :margin: 4 4 0 0
 :gutter: 1
 
+:::{grid-item-card} {octicon}`chevron-right` API Reference
+:link: pages/pathway_newcomer
+:link-type: doc
+
+Recommended content for quantum newcomers.
+:::
+
+:::{grid-item-card} {octicon}`chevron-right` API Reference
+:link: pages/pathway_researcher
+:link-type: doc
+
+Recommended content for quantum researchers.
+:::
+
+:::{grid-item-card} {octicon}`chevron-right` API Reference
+:link: pages/pathway_educator
+:link-type: doc
+
+Recommended content for quantum educators.
+:::
+
 :::{grid-item-card} {octicon}`chevron-right` Examples: Getting Started
-:link: pages/examples-getting-started
+:link: pages/examples_getting_started
 :link-type: doc
 
 Get familiarized with the Braket API through executable notebooks.
 :::
 
 :::{grid-item-card} {octicon}`chevron-right` Examples: Continue Exploring
-:link: pages/examples-adv-circuits-algorithms
+:link: pages/examples_adv_circuits_algorithms
 :link-type: doc
 
 Explore a variety of applications and features through executable notebooks.
