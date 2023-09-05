@@ -5,7 +5,7 @@ sd_hide_title: true
 # sphinx-design
 
 ::::::{div} landing-title
-:style: "padding: 0.5rem 0.5rem 0.7rem 0.5rem; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem));"
+:style: "padding: 0.5rem 0.3rem .85rem 0.5 rem; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% calc(100% - 1.5rem), 0% calc(100% - 1.5rem));"
 
 ::::{grid}
 :reverse:
@@ -69,21 +69,21 @@ _apidoc/modules
 :margin: 4 4 0 0
 :gutter: 1
 
-:::{grid-item-card} {octicon}`table` Examples: Getting Started
+:::{grid-item-card} {octicon}`chevron-right` Examples: Getting Started
 :link: pages/examples-getting-started
 :link-type: doc
 
 Get familiarized with the Braket API through executable notebooks.
 :::
 
-:::{grid-item-card} {octicon}`note` Examples: Continue Exploring
+:::{grid-item-card} {octicon}`chevron-right` Examples: Continue Exploring
 :link: pages/examples-adv-circuits-algorithms
 :link-type: doc
 
 Explore a variety of applications and features through executable notebooks.
 :::
 
-:::{grid-item-card} {octicon}`chevron-down` API Reference
+:::{grid-item-card} {octicon}`chevron-right` API Reference
 :link: _apidoc/modules
 :link-type: doc
 
