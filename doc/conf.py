@@ -22,7 +22,7 @@ extensions = [
     # 'myst_parser'
 ]
 
-source_suffix = ".rst"
+source_suffix = ".md"
 master_doc = "index"
 
 autoclass_content = "both"
