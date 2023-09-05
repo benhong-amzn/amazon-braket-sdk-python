@@ -101,7 +101,7 @@ Get familiarized with the Braket API through executable notebooks.
 :::
 
 :::{grid-item-card} {octicon}`chevron-right` Examples: Continue Exploring
-:link: pages/examples_adv_circuits_algorithms
+:link: pages/examples_continue_exploring
 :link-type: doc
 
 Explore a variety of applications and features through executable notebooks.
