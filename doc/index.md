@@ -5,7 +5,7 @@ sd_hide_title: true
 # sphinx-design
 
 ::::::{div} landing-title
-:style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem));"
+:style: "padding: 0.1rem 0.6rem 0.6rem 0; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 100%); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 100%);"
 
 ::::{grid}
 :reverse:
@@ -34,7 +34,7 @@ Amazon Braket Python SDK
 :color: white
 :class: sd-px-4 sd-fs-5
 
-Setting Up
+Get Started
 ```
 
 :::
@@ -49,6 +49,21 @@ This documentation provides information about the Amazon Braket Python SDK libra
 The project includes SDK source, installation instructions, and other information.
 
 The project homepage is in Github https://github.com/aws/amazon-braket-sdk-python. 
+
+```{toctree}
+:hidden:
+
+pages/setting_up
+```
+
+```{toctree}
+:caption: Components
+:hidden:
+
+pages/examples-getting-started.rst
+pages/examples-adv-circuits-algorithms.rst
+_apidoc/modules.rst
+```
 
 ::::{grid} 1 2 2 3
 :margin: 4 4 0 0
