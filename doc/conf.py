@@ -24,7 +24,7 @@ extensions = [
 
 myst_enable_extensions = ["colon_fence"]
 
-source_suffix = ".md"
+source_suffix = ['.rst', '.md']
 master_doc = "index"
 
 autoclass_content = "both"
