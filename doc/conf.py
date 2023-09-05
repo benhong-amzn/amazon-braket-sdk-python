@@ -17,8 +17,8 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.coverage",
     "jupyterlite_sphinx",
-    'sphinx_design'
-    'myst_parser'
+    "sphinx_design",
+    "myst_parser",
     # 'nbsphinx',
 ]
 
