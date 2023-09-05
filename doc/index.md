@@ -5,7 +5,7 @@ sd_hide_title: true
 # sphinx-design
 
 ::::::{div} landing-title
-:style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem));"
+:style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(0deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem));"
 
 ::::{grid}
 :reverse:
@@ -15,7 +15,7 @@ sd_hide_title: true
 :::{grid-item}
 :columns: 12 4 4 4
 
-```{image} ./_static/
+```{image} ./_static/braket-avatar.png
 :width: 200px
 :class: sd-m-auto sd-animate-grow50-rot20
 ```
@@ -26,15 +26,15 @@ sd_hide_title: true
 :child-align: justify
 :class: sd-text-white sd-fs-3
 
-A sphinx extension for designing beautiful, screen-size responsive web-components.
+Amazon Braket Python SDK
 
-```{button-ref} get_started
+```{button-ref} pages/setting_up
 :ref-type: doc
 :outline:
 :color: white
 :class: sd-px-4 sd-fs-5
 
-Get Started
+Setting Up
 ```
 
 :::
@@ -42,101 +42,36 @@ Get Started
 
 ::::::
 
-Conflict free CSS
-: All CSS classes are prefixed, to avoid conflicts with other frameworks.
+The **Amazon Braket Python SDK** is an open source library to design and build quantum circuits, submit them to Amazon Braket devices as quantum tasks, and monitor their execution.
 
-Works without JavaScript
-: JavaScript is not required for any "essential" functionality.
+This documentation provides information about the Amazon Braket Python SDK library. 
 
-Configurable
-: All colors can be configured using CSS variables.
+The project includes SDK source, installation instructions, and other information.
 
-Supports non-HTML output formats
-: Components degrade gracefully for non-HTML formats.
-
-```{toctree}
-:hidden:
-
-get_started
-```
-
-```{toctree}
-:caption: Components
-:hidden:
-
-grids
-cards
-dropdowns
-tabs
-badges_buttons
-additional
-```
-
-```{toctree}
-:caption: Styling
-:hidden:
-
-css_variables
-css_classes
-```
-
-```{toctree}
-:caption: Themes
-:hidden:
-
-alabaster <https://sphinx-design.readthedocs.io/en/alabaster-theme>
-sphinx-book-theme <https://sphinx-design.readthedocs.io/en/sbt-theme>
-pydata-sphinx-theme <https://sphinx-design.readthedocs.io/en/pydata-theme>
-sphinx-rtd-theme <https://sphinx-design.readthedocs.io/en/rtd-theme>
-furo <https://sphinx-design.readthedocs.io/en/furo-theme>
-```
+The project homepage is in Github https://github.com/aws/amazon-braket-sdk-python. 
 
 ::::{grid} 1 2 2 3
 :margin: 4 4 0 0
 :gutter: 1
 
-:::{grid-item-card} {octicon}`table` Grids
-:link: grids
+:::{grid-item-card} {octicon}`table` Examples: Getting Started
+:link: pages/examples-getting-started.rst
 :link-type: doc
 
-Screen size adaptable grid layouts.
+Get familiarized with the Braket API through executable notebooks.
 :::
 
-:::{grid-item-card} {octicon}`note` Cards
-:link: cards
+:::{grid-item-card} {octicon}`note` Examples: Continue Exploring
+:link: pages/examples-adv-circuits-algorithms.rst
 :link-type: doc
 
-Flexible and extensible content containers.
+Explore a variety of applications and features through executable notebooks.
 :::
 
-:::{grid-item-card} {octicon}`chevron-down` Dropdowns
-:link: dropdowns
+:::{grid-item-card} {octicon}`chevron-down` API Reference
+:link: _apidoc/modules.rst
 :link-type: doc
 
-Hide content in expandable containers.
-:::
-
-:::{grid-item-card} {octicon}`duplicate` Tabs
-:link: tabs
-:link-type: doc
-
-Synchronisable, tabbed content sets.
-:::
-
-:::{grid-item-card} {octicon}`plus-circle` Badges, Buttons & Icons
-:link: badges_buttons
-:link-type: doc
-
-Roles and directives for {bdg-primary}`badges` and other components.
-:::
-
-:::{grid-item-card} {octicon}`image` CSS Styling
-:link: css_variables
-:link-type: doc
-
-Change the default colors and other CSS.
 :::
 
 ::::
-
------------
