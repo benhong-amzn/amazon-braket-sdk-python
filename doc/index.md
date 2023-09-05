@@ -28,7 +28,7 @@ sd_hide_title: true
 
 Amazon Braket Python SDK
 
-```{button-ref} pages/setting_up.rst
+```{button-ref} pages/setting_up
 :ref-type: doc
 :outline:
 :color: white
@@ -60,9 +60,9 @@ pages/setting_up
 :caption: Components
 :hidden:
 
-pages/examples-getting-started.rst
-pages/examples-adv-circuits-algorithms.rst
-_apidoc/modules.rst
+pages/examples-getting-started
+pages/examples-adv-circuits-algorithms
+_apidoc/modules
 ```
 
 ::::{grid} 1 2 2 3
@@ -70,21 +70,21 @@ _apidoc/modules.rst
 :gutter: 1
 
 :::{grid-item-card} {octicon}`table` Examples: Getting Started
-:link: pages/examples-getting-started.rst
+:link: pages/examples-getting-started
 :link-type: doc
 
 Get familiarized with the Braket API through executable notebooks.
 :::
 
 :::{grid-item-card} {octicon}`note` Examples: Continue Exploring
-:link: pages/examples-adv-circuits-algorithms.rst
+:link: pages/examples-adv-circuits-algorithms
 :link-type: doc
 
 Explore a variety of applications and features through executable notebooks.
 :::
 
 :::{grid-item-card} {octicon}`chevron-down` API Reference
-:link: _apidoc/modules.rst
+:link: _apidoc/modules
 :link-type: doc
 
 :::
