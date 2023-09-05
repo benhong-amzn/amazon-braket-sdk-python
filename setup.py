@@ -41,7 +41,7 @@ setup(
         "openqasm3",
         "sympy",
         "docutils >=0.18.1,<0.19",
-        # "myst-parser",
+        "myst-parser",
 
     ],
     extras_require={
