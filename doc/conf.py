@@ -29,10 +29,21 @@ autoclass_content = "both"
 autodoc_member_order = "bysource"
 default_role = "py:obj"
 
-html_theme = "sphinx_rtd_theme"
+html_static_path = ["_static"]
+html_theme = "sphinx_book_theme"
 html_logo = "_static/amz-braket.png"
 html_title = "Amazon Braket Python SDK"
 htmlhelp_basename = "{}doc".format(project)
+
+html_theme_options = {
+    "repository_url": "https://github.com/executablebooks/sphinx-design",
+    "use_repository_button": True,
+    "use_edit_page_button": True,
+    "use_issues_button": True,
+    "repository_branch": "main",
+    "path_to_docs": "doc",
+    "home_page_in_toc": False,
+}
 
 language = "en"
 
