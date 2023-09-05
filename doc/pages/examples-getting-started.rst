@@ -1,5 +1,5 @@
 ##############################
-Getting started
+Getting Started
 ##############################
 
 Get started on Amazon Braket with some introductory examples.

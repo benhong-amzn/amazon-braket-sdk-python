@@ -33,7 +33,7 @@ default_role = "py:obj"
 
 html_static_path = ["_static"]
 html_theme = "pydata_sphinx_theme"
-html_logo = "_static/amz-braket.png"
+html_logo = "_static/aws.png"
 html_title = "Amazon Braket Python SDK"
 htmlhelp_basename = "{}doc".format(project)
 

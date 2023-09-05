@@ -1,6 +1,6 @@
-################################
-Advanced circuits and algorithms
-################################
+#########################
+Continue Exploring 
+#########################
 
 Learn more about working with advanced circuits and algoritms.
 
